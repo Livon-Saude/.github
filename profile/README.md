@@ -1,67 +1,102 @@
-<div align="center">
+# Livon
 
-# Livon · Produto & Tecnologia
+**Plataforma integrada de gestão de Saúde, Segurança e Meio Ambiente (EHS/SST) e ESG, com inteligência artificial.**
 
-Engenharia por trás da **Minha Livon**: saúde ocupacional, SST e gestão de pessoas, com IA no centro.
+A Livon transforma dados em decisões estratégicas: ajuda empresas a reduzir custos, prevenir riscos e comprovar retorno mensurável, reunindo saúde corporativa, segurança do trabalho, meio ambiente e ESG em um único lugar.
 
-</div>
-
----
-
-## Mapa da organização
-
-Os repositórios seguem uma convenção de prefixos. Ao criar um novo, use a que se encaixa.
-
-| Prefixo | O que é | Exemplos |
-|---|---|---|
-| `minhalivon-*` | Produto principal: monólito e frontends | `minhalivon-backend`, `minhalivon-frontend-vue3` |
-| `svc-*` | Microserviços satélite, isolados do monólito | `svc-byok`, `svc-sst`, `svc-middleware` |
-| `ai-*` | Agentes e soluções de IA | `ai-scribe`, `ai-atestados`, `ai-plano-de-acao` |
-| `int-*` | Integrações com sistemas externos | `int-sap-cpi`, `int-n8n-workflows` |
-| `tools-*` | Ferramentas internas de engenharia | `tools-atlas-metrics`, `tools-e2e-tests` |
-| `nr01-*` | Iniciativas de NR-01 e riscos psicossociais | `nr01-psicossocial` |
-
-## Repositórios em destaque
-
-| Repositório | Descrição |
-|---|---|
-| [`minhalivon-backend`](https://github.com/Livon-Saude/minhalivon-backend) | Monólito principal: Python 3.10, Django 4.1, Celery e PostgreSQL |
-| [`minhalivon-frontend-vue3`](https://github.com/Livon-Saude/minhalivon-frontend-vue3) | Novo frontend da Minha Livon em Vue 3 + Nuxt |
-| [`livon-skills`](https://github.com/Livon-Saude/livon-skills) | Marketplace privado de plugins e skills do Claude Code |
-| [`svc-byok`](https://github.com/Livon-Saude/svc-byok) | Painel BYOK: cada cliente usa a própria chave de IA e paga o consumo direto ao provedor |
-| [`superset`](https://github.com/Livon-Saude/superset) | Apache Superset para dashboards e análise de dados |
-
-## Como trabalhamos
-
-- **Guildas** são donas dos padrões de engenharia: Definition of Ready/Done, fluxo de PR e cadência de release.
-- **Decisões viram ADRs** e passam por uma fase piloto antes de virar regra.
-- **Branches protegidas:** `base`, `staging` e `master` não aceitam force push nem deleção, e todo PR precisa de aprovação e de conversas resolvidas.
-- **Release com gate:** só entra em produção o que é verificado, reversível e observável.
-- **IA com governança:** todo uso de IA generativa segue a Política de Uso e Desenvolvimento de IA Generativa da Livon.
-
-## Primeiros passos
-
-1. Peça para entrar no time da sua guilda na organização.
-2. Leia o processo de desenvolvimento em [`SDLC`](https://github.com/Livon-Saude/SDLC) e a documentação técnica em [`docs`](https://github.com/Livon-Saude/docs).
-3. Instale o Claude Code e adicione o marketplace [`livon-skills`](https://github.com/Livon-Saude/livon-skills).
-4. Trabalhe numa branch de feature e abra o PR contra `base`. <!-- confirmar o fluxo base → staging → master -->
-
-## Documentação
-
-| O quê | Onde |
-|---|---|
-| Documentação técnica | [`docs`](https://github.com/Livon-Saude/docs) |
-| Documentação para usuários | [`user-docs`](https://github.com/Livon-Saude/user-docs) |
-| Backlog | Jira, projeto `MLK` |
-| Política de IA Generativa | <!-- link --> |
-
-## Contatos
-
-| Assunto | Canal |
-|---|---|
-| Acessos e plataforma | <!-- canal --> |
-| Segurança e LGPD | <!-- e-mail/canal --> |
+🌐 **Site:** [soulivon.com.br](https://soulivon.com.br/)
+💼 **LinkedIn:** [linkedin.com/company/livonehs](https://www.linkedin.com/company/livonehs)
 
 ---
 
-<sub>Visível apenas para membros da organização. Nunca versione segredos, credenciais ou dados pessoais de pacientes e colaboradores (LGPD).</sub>
+## O problema que resolvemos
+
+Muitas organizações ainda lidam com:
+
+- **Visão fragmentada:** sistemas isolados e processos manuais.
+- **Dados desconectados:** coleta manual de indicadores e relatórios engessados.
+- **Custos de saúde elevados:** absenteísmo crescente e despesas médicas sem controle.
+- **Ferramentas antiquadas:** três ou quatro softwares somados a planilhas.
+
+## Pilares
+
+| Pilar | O que significa |
+| --- | --- |
+| **IA nativa** | Antecipa riscos e busca evitar incidentes. |
+| **ROI acelerado** | Foco em demonstrar redução de custos e riscos já nos primeiros ciclos de uso. |
+| **Integração total** | EHS, saúde, meio ambiente e ESG em uma única plataforma. |
+| **Orientação a valor** | Indicadores conectados a resultados financeiros. |
+
+## Soluções
+
+- **Livon ONE™**: painel executivo com visão consolidada e gestão preditiva em tempo real.
+- **Livon AI™**: modelos preditivos que identificam riscos, incluindo colaboradores com risco de afastamento.
+- **Livon Operations™**: operação de EHS, saúde corporativa e ESG em modelo híbrido, combinando especialistas humanos e automação por IA.
+- **Livon Advisory™**: especialistas que transformam dados em decisões, com roadmaps de bem-estar e segurança e cálculo de ROI projetado.
+
+### Pacotes de soluções
+
+- **Livon Health Intelligence™**: gestão estratégica de saúde corporativa e redução de custos assistenciais.
+- **Livon Safety Excellence™**: prevenção de acidentes com checklists digitais e fluxos automáticos.
+
+### Verticais setoriais
+
+- **Livon Agro**: gestão integrada de SST e meio ambiente para o agronegócio.
+- **Livon NR-01**: conformidade com a NR-01 e gestão de riscos psicossociais.
+- **Livon Farma**: EHS e RH para o setor farmacêutico, com foco em conformidade regulatória.
+
+## Principais recursos
+
+- Análise preditiva de riscos, com identificação de padrões e recomendação de ações.
+- Checklists digitais e workflows automáticos.
+- Gestão de EPIs e integração com o eSocial.
+- Indicadores ESG e relatórios em tempo real.
+- Automação de processos e redução de retrabalho.
+- **Liv.IA**, assistente virtual com automação inteligente e análise preditiva.
+
+## Para quem
+
+- **RH e saúde corporativa:** unificar dados, reduzir absenteísmo e custos de saúde e demonstrar resultados à liderança.
+- **Gestores de EHS/SST:** consolidar inspeções, incidentes e auditorias e reduzir acidentes.
+- **Gestores de ESG:** automatizar indicadores, gerar relatórios em tempo real e medir impacto financeiro.
+
+## Tecnologia e integrações
+
+- Plataforma **agnóstica**, integrada aos principais ERPs por meio de conectores próprios.
+- Integrações e ecossistema que incluem **SAP, ADP, TOTVS e Senior**.
+- Plataforma desenvolvida **100% in-house**, com personalização rápida e integração nativa de dados.
+
+## Nossa equipe
+
+Equipe multidisciplinar com médicos ocupacionais, engenheiros de segurança e profissionais de saúde e bem-estar, trabalhando em ciclos curtos de feedback com os clientes e ajustando continuamente os algoritmos de IA.
+
+## Em números
+
+Segundo o site institucional:
+
+- **+300 mil** vidas cadastradas e ativas na plataforma.
+- **+R$ 30 milhões** em economia (*saving*) gerada para as empresas clientes.
+
+## ESG
+
+A Livon declara alinhamento com os **Objetivos de Desenvolvimento Sustentável (ODS) da ONU**, com atuação nas dimensões Ambiental, Social e de Governança.
+
+## Conteúdo
+
+Artigos sobre NR-01, riscos psicossociais e saúde corporativa são publicados no blog em [soulivon.com.br](https://soulivon.com.br/).
+
+## Fale com a gente
+
+- **Site e formulário de contato:** [soulivon.com.br](https://soulivon.com.br/)
+- **WhatsApp:** +55 19 99818-1006
+- **LinkedIn:** [linkedin.com/company/livonehs](https://www.linkedin.com/company/livonehs)
+
+## Privacidade
+
+Dúvidas sobre tratamento de dados pessoais (LGPD): **privacidade@livon.io**. A política completa está disponível em [soulivon.com.br](https://soulivon.com.br/).
+
+---
+
+> Este repositório contém apenas informações públicas sobre a Livon. Todas as descrições de produto e números refletem o que é divulgado no site institucional e podem mudar sem aviso.
+
+© Livon. Todos os direitos reservados.
