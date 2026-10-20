@@ -1,6 +1,6 @@
 <div align="center">
 
-# Livon Saúde · Produto & Tecnologia
+# Livon · Produto & Tecnologia
 
 Engenharia por trás da **Minha Livon**: saúde ocupacional, SST e gestão de pessoas, com IA no centro.
 
